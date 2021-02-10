@@ -1,0 +1,11 @@
+
+plugins {
+    id 'io.gatling.gradle' version "3.5.1"
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+dependencies {
+    compile group: 'io.gatling', name: 'gatling-recorder', version: '3.5.1'
+}
